@@ -1,0 +1,58 @@
+{
+    "category": "anti-censorship",
+    "config": {
+        "assets": {
+            "logos": {
+            },
+            "detail_page":
+            [
+            ]
+        }, 
+        "details": {
+            "Language": "English",
+            "Price": "Free", 
+            "Restrictions": "None",
+            "Supporting": "<a href='https://www.battleforthenet.com/'>battleforthenet.com</a>",
+            "has_js": true
+        }, 
+        "interface": [ 
+            {
+                "type": "select",
+                "id": "bannerType",
+                "name": "Communication Types",
+                "description": "Choose which types of website messaging to include.",
+                "options": [
+                    {
+                        "label": "Modal (recommended)",
+                        "value": "modal"
+                    },
+                    {
+                        "label": "Light banner",
+                        "value": "light"
+                    },
+					{
+                        "label": "Dark banner",
+                        "value": "dark"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "contributors": [
+        {
+            "email": "dkoston@cloudflare.com", 
+            "name": "Dave Koston"
+        }
+    ], 
+    "dependencies": {}, 
+    "description": "This app lets you automatically add The Battle for the Net modal or banner to your site on Septmeber 10th, 2014. Battle for the Net is an organization that has organized a protest against changes to Net Neutrality.",
+    "licenses": [
+        {
+            "type": "MIT", 
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ], 
+    "main": "./public/javascripts/banner.js", 
+    "name": "Battle for the Net", 
+    "version": "0.01"
+}
