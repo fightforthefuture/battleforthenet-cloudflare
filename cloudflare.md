@@ -15,9 +15,11 @@ To stay up-to-date on developments, please subscribe to our
 the widget, please [**email Jeff Lyon**][5].
 
 **The modal:**
+
 ![Modal](https://fightforthefuture.github.io/battleforthenet-widget/demos/modal.png)
 
 **The banners:**
+
 ![Banners](https://fightforthefuture.github.io/battleforthenet-widget/demos/banner.png)
 
 
