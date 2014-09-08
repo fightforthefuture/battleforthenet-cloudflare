@@ -61,6 +61,6 @@
         }
     ], 
     "main": "./public/javascripts/widget.js", 
-    "name": "Battle for the Net", 
+    "name": "Battle for the Net Action Tool", 
     "version": "0.01"
 }
