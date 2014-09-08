@@ -3,9 +3,13 @@
     "config": {
         "assets": {
             "logos": {
+                "132px": "./public/images/logo-132.png",
+                "200px": "./public/images/logo-200.png"
             },
             "detail_page":
             [
+                "./public/images/modal.png",
+                "./public/images/banner.png"
             ]
         }, 
         "details": {
@@ -18,7 +22,7 @@
         "interface": [ 
             {
                 "type": "select",
-                "id": "bannerType",
+                "id": "widgetType",
                 "name": "Communication Types",
                 "description": "Choose which types of website messaging to include.",
                 "options": [
@@ -40,6 +44,10 @@
     }, 
     "contributors": [
         {
+            "email": "jeff@fightforthefuture.org", 
+            "name": "Jeff Lyon"
+        },
+        {
             "email": "dkoston@cloudflare.com", 
             "name": "Dave Koston"
         }
@@ -52,7 +60,7 @@
             "url": "http://www.opensource.org/licenses/MIT"
         }
     ], 
-    "main": "./public/javascripts/banner.js", 
+    "main": "./public/javascripts/widget.js", 
     "name": "Battle for the Net", 
     "version": "0.01"
 }
