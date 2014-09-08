@@ -1,4 +1,4 @@
-CloudFlare.define('battle_for_the_net_action_tool',[
+CloudFlare.define('battle_for_the_net_action_',[
 	'battle_for_the_net/config',
 	'cloudflare/dom'
 ],
